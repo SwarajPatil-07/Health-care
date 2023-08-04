@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #04af99;
+    color: #fffefe;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    background-color: #0d0b0b;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    background-color: #37a247;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  main ul {
+    list-style: none;
+  }
+  
+  main li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  
+  main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #d4cfcf;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #06b71d;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #599adf;
+  }
+  
